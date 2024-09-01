@@ -1,18 +1,18 @@
 # Overview
 The Weather Data Application is a Python-based tool designed to fetch, analyze, and visualize real-time weather data from various cities around the world. This application leverages the OpenWeatherMap API to gather weather information and provides a user-friendly interface for data extraction, cleaning, visualization, and reporting.
 # Features
-Fetch real-time weather data for multiple cities.
-Store weather data in a SQLite database.
-Extract, clean, and visualize data using various Python libraries.
-Generate reports based on analyzed weather data.
+- Fetch real-time weather data for multiple cities.
+- tore weather data in a SQLite database.
+- Extract, clean, and visualize data using various Python libraries.
+- Generate reports based on analyzed weather data.
 # Technologies Used
-Python: The primary programming language.
-Tkinter: For creating the GUI.
-SQLite: For database management.
-Pandas: For data manipulation and analysis.
-Matplotlib and Seaborn: For data visualization.
-Requests: For making HTTP requests to the weather API.
-Schedule: For scheduling periodic data fetching.
+- Python: The primary programming language.
+- Tkinter: For creating the GUI.
+- SQLite: For database management.
+- Pandas: For data manipulation and analysis.
+- Matplotlib and Seaborn: For data visualization.
+- Requests: For making HTTP requests to the weather API.
+- Schedule: For scheduling periodic data fetching.
 # Installation
 1. Clone the repository:
 ```bash
@@ -42,7 +42,7 @@ python main.py
 ```
 weather-data-application/
 │
-├── main.py                # Main application file
+├── main.py               # Main application file
 ├── weather_data.db       # SQLite database file
 ├── requirements.txt      # Python dependencies
 └── .env                  # Environment variables

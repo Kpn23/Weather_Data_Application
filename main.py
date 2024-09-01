@@ -175,7 +175,7 @@ class WeatherApp:
         # Time display area
         self.time_display_label = tk.Label(
             root,
-            text="Current Start time \n End time \n Record found \nfor 'Visualize Data and Output Report'",
+            text="Current Start time & End time for \n\n 'Visualize Data' and 'Output Report'",
         )
         self.time_display_label.grid(
             row=3, column=1, rowspan=3, padx=10, pady=5, sticky="e"

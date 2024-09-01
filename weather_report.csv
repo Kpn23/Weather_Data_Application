@@ -1,9 +1,9 @@
 City,Avg Temp,Difference,Remark,Start Time,End Time
-Austria,15.41,-0.28,(-) feel cooler,2024-08-27,2024-08-29
-Bath,18.69,-0.02,(-) feel cooler,2024-08-27,2024-08-29
-Budapest,26.31,0.71,(+) feel hotter,2024-08-27,2024-08-29
-Edinburgh,16.82,-0.10,(-) feel cooler,2024-08-27,2024-08-29
-Hong Kong,31.46,6.99,(+) feel hotter,2024-08-27,2024-08-29
-Jakarta,30.81,4.00,(+) feel hotter,2024-08-27,2024-08-29
-Odense,19.10,-0.05,(-) feel cooler,2024-08-27,2024-08-29
-Republic of the Congo,30.86,-0.26,(-) feel cooler,2024-08-27,2024-08-29
+Austria,11.51,-0.30,(-) feel cooler,2024-08-27 09:00:00,2024-08-27 17:00:00
+Bath,15.82,0.02,(+) feel hotter,2024-08-27 09:00:00,2024-08-27 17:00:00
+Budapest,23.69,0.21,(+) feel hotter,2024-08-27 09:00:00,2024-08-27 17:00:00
+Edinburgh,15.56,-0.17,(-) feel cooler,2024-08-27 09:00:00,2024-08-27 17:00:00
+Hong Kong,32.10,6.98,(+) feel hotter,2024-08-27 09:00:00,2024-08-27 17:00:00
+Jakarta,32.93,4.99,(+) feel hotter,2024-08-27 09:00:00,2024-08-27 17:00:00
+Odense,16.85,0.07,(+) feel hotter,2024-08-27 09:00:00,2024-08-27 17:00:00
+Republic of the Congo,27.52,0.11,(+) feel hotter,2024-08-27 09:00:00,2024-08-27 17:00:00
