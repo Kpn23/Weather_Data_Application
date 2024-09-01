@@ -4,4 +4,6 @@ __pycache__/
 # Environment variables file
 .env
 
-
+# testing file
+data_analysis.py/
+data_collection.py/
