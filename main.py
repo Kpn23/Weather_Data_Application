@@ -58,7 +58,7 @@ conn.close()
 
 
 def fetch_weather_data(message_area):
-    track_number_of_BatchFetch = 0
+    message_area.config(state="normal")
     for city in your_city:
         API_URL = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
         response = requests.get(API_URL)
@@ -122,6 +122,7 @@ def fetch_weather_data(message_area):
 
     message_area.insert(tk.END, f"Batch Fetch Done: {datetime.now()}\n")
     message_area.yview(tk.END)
+    message_area.config(state="disabled")
 
 
 class WeatherApp:
