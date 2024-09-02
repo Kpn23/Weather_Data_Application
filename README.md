@@ -1,6 +1,8 @@
 # Overview
 The Weather Data Application is a Python-based tool designed to fetch, analyze, and visualize real-time weather data from various cities around the world. This application leverages the OpenWeatherMap API to gather weather information and provides a user-friendly interface for data extraction, cleaning, visualization, and reporting.
 # Features
+<img src="Interface.png" />
+
 - Fetch real-time weather data for multiple cities.
 - tore weather data in a SQLite database.
 - Extract, clean, and visualize data using various Python libraries.
@@ -13,6 +15,7 @@ The Weather Data Application is a Python-based tool designed to fetch, analyze, 
 - Matplotlib and Seaborn: For data visualization.
 - Requests: For making HTTP requests to the weather API.
 - Schedule: For scheduling periodic data fetching.
+
 # Installation
 1. Clone the repository:
 ```bash
@@ -38,6 +41,17 @@ python main.py
 4. Clean Data: Click the "Clean Data" button to preprocess the extracted data.
 5. Visualize Data: Use the "Visualize Data" button to generate visual representations of the weather data.
 6. Output Report: Click the "Output Report" button to generate a CSV report of the weather data analysis.
+# Output
+<div style="display: flex; flex-direction: column; align-items: flex-start;"> 
+<div style="display: flex; justify-content: space-between; width: 100%;"> <span style="font-weight: bold; text-align: left; width: 48%;">Temperature Over Time</span> 
+<span style="font-weight: bold; text-align: left; width: 48%;">Correlation Heatmap</span> 
+</div> 
+<div style="display: flex; justify-content: space-between; width: 100%;"> 
+<img src="temperature_over_time.png" alt="Temperature Over Time" style="width: 48%;"/> 
+<img src="correlation_heatmap.png" alt="Correlation Heatmap" style="width: 48%;"/> 
+</div> 
+</div>
+
 # Project Structure
 ```
 weather-data-application/

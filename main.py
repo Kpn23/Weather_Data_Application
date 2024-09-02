@@ -191,7 +191,6 @@ class WeatherApp:
         self.message_area.config(state="disabled")
 
     # input and button execution
-
     def fetch_data(self):
         if not self.schedule_entry.get():
             messagebox.showwarning("Warning", "Schedule Minutes cannot be empty.")
@@ -307,8 +306,7 @@ class WeatherApp:
         except Exception as e:
             messagebox.showerror("Error", f"An error occurred during output: {e}")
 
-    # below are ETL , visualisation , export csv
-
+    # ETL , visualisation , export csv
     def extract(self):
         conn = sqlite3.connect("weather_data.db")
         your_city = pd.read_sql("SELECT DISTINCT city_name FROM weather_data", conn)[
@@ -360,7 +358,7 @@ class WeatherApp:
                     alpha=0.5,
                     label="Temperature Range",
                 )
-                ax.xaxis.set_major_locator(ticker.MaxNLocator(nbins=5))
+                # ax.xaxis.set_major_locator(ticker.MaxNLocator(nbins=5))
                 ax.set_title(f"Temperature Over Time for {city}")
                 ax.set_xlabel("Time")
                 ax.set_ylabel("Temperature (°C)")
@@ -368,6 +366,7 @@ class WeatherApp:
 
         plt.tight_layout()
         plt.savefig("temperature_over_time.png")
+
         plt.close()
 
         fig, axs = plt.subplots(4, 2, figsize=(20, 35))

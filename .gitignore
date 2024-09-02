@@ -7,3 +7,8 @@ __pycache__/
 # testing file
 data_analysis.py
 data_collection.py
+
+# png picture
+Interface.png
+temperature_over_time.png
+correlation_heatmap.png
