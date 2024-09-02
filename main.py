@@ -365,7 +365,7 @@ class WeatherApp:
                 ax.legend()
 
         plt.tight_layout()
-        plt.savefig("temperature_over_time.png")
+        plt.savefig("png_folder/temperature_over_time.png")
 
         plt.close()
 
@@ -390,7 +390,7 @@ class WeatherApp:
 
         plt.suptitle("Heatmap of Temperature, Feels Like, and Humidity", y=0.99)
         plt.tight_layout()
-        plt.savefig("correlation_heatmap.png")
+        plt.savefig("png_folder/correlation_heatmap.png")
         plt.close()
 
         return df_c_t
