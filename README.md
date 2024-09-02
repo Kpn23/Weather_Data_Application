@@ -1,7 +1,7 @@
 # Overview
 The Weather Data Application is a Python-based tool designed to fetch, analyze, and visualize real-time weather data from various cities around the world. This application leverages the OpenWeatherMap API to gather weather information and provides a user-friendly interface for data extraction, cleaning, visualization, and reporting.
 # Features
-<img src="Interface.png" />
+<img src="png_folder/Interface.png" />
 
 - Fetch real-time weather data for multiple cities.
 - tore weather data in a SQLite database.
@@ -43,14 +43,15 @@ python main.py
 6. Output Report: Click the "Output Report" button to generate a CSV report of the weather data analysis.
 
 # Output
-<div style="display: flex; flex-direction: column; align-items: flex-start;"> 
-<div style="display: flex; justify-content: space-between; width: 100%;"> <span style="font-weight: bold; text-align: left; width: 48%;">Temperature Over Time</span> 
-<span style="font-weight: bold; text-align: left; width: 48%;">Correlation Heatmap</span> 
-</div> 
-<div style="display: flex; justify-content: space-between; width: 100%;"> 
-<img src="png_folder/temperature_over_time.png" alt="Temperature Over Time" style="width: 48%;"/> 
-<img src="png_folder/correlation_heatmap.png" alt="Correlation Heatmap" style="width: 48%;"/> 
-</div> 
+<div style="display: flex; flex-direction: column; align-items: flex-start; width: 100%;"> 
+  <div style="display: flex; justify-content: space-between; width: 100%;"> 
+    <span style="font-weight: bold; text-align: center; width: 48%;">Temperature Over Time</span> 
+    <span style="font-weight: bold; text-align: center; width: 48%;">Correlation Heatmap</span> 
+  </div> 
+  <div style="display: flex; justify-content: space-between; width: 100%;"> 
+    <img src="png_folder/temperature_over_time.png" alt="Temperature Over Time" style="width: 48%;"/> 
+    <img src="png_folder/correlation_heatmap.png" alt="Correlation Heatmap" style="width: 48%;"/> 
+  </div> 
 </div>
 
 # Project Structure
